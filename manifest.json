@@ -1,0 +1,16 @@
+{
+  "name": "UDS File Builder",
+  "id": "1345457492473072280",
+  "api": "1.0.0",
+  "main": "code.js",
+  "editorType": [
+    "figma"
+  ],
+  "relaunchButtons": [
+    {"command": "edit", "name": "Edit shape"},
+    {"command": "open", "name": "Open Shaper", "multipleSelection": true}
+  ],
+  "networkAccess": { 
+    "allowedDomains": ["none"] 
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Ueno-File-Builder",
+  "version": "1.0.0",
+  "description": "The Ueno File Builder plugin is an essential tool for designers looking to accelerate their workflow in Figma. With just a few clicks, this plugin automatically sets up a Figma file with all the necessary pages for your project, saving time and eliminating the tedious task of manually creating pages.",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "watch": "npm run build -- --watch"
+  },
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.57.1",
+    "typescript": "*"
+  }
+}
